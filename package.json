@@ -1,0 +1,25 @@
+{
+    "name": "fishshop",
+    "version": "1.0.0",
+    "description": "Simple exercice",
+    "main": "webpack.config.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack --progress --colors",
+        "build-production": "webpack -p --progress --colors",
+        "build-watch": " webpack --watch --progress --colors"
+    },
+    "dependencies": {
+        "css-loader": "^0.28.0",
+        "file-loader": "^0.11.1",
+        "node-sass": "^4.5.2",
+        "sass-loader": "^6.0.3",
+        "script-loader": "^0.7.0",
+        "style-loader": "^0.16.1",
+        "ts-loader": "^2.0.3",
+        "typescript": "^2.2.1",
+        "webpack": "^2.3.3"
+    },
+    "author": "Florian Gomis",
+    "license": "MIT"
+}
